@@ -17,26 +17,33 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.tela-instagreen {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 48%;
     height: 100vh;
+    max-width: 992px;
+    margin: auto;
 }
 
-.instagram-phone {
+.insta-phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
-    height: 50rem;
+.insta-phone img {
+    max-height: 510px;
+    background-image: url("imagens/mundo-sustentavel.gif");
+    background-size: 121%;
+    background-position-x: 50%;
+    background-position-y: 56%;
+    background-repeat: no-repeat;
 }
 
-.instagram-continue {
+.insta-continue {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
@@ -51,20 +58,22 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 95%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 330px;
+    margin-bottom: 10px;
 }
 
-.instagram-logo {
-    height: 3rem;
+.insta-logo {
+    height: 45px;
+    margin-top: 25px;
 }
 
-.profile-photo {
+.profile-foto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,20 +81,20 @@ body {
     overflow: hidden;
 }
 
-.profile-photo img {
+.profile-foto img {
     height: 6rem;
 }
 
-.instagram-login {
+.botton-login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
+.insta-logout {
     color: #0095f6;
-    margin-top: 1rem;
+    margin-bottom: 10px;
 }
 
 .not-account {
@@ -96,43 +105,44 @@ body {
     color: #0095f6;
 }
 
-.get-the-app {
+.baixe-app {
     display: flex;
+    margin-top: 15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
-}
+    }
 
 .download {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    margin-top: 15px;
 }
 
 .app-download {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    border-radius: 4px;
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url("imagens/logo-appstore.png");
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url("imagens/logo-googleplay.png");
 }
 
 /* media queries */
 
 
 @media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
+    .tela-instagreen {
+        width: 75%;
     }
 }
 
@@ -141,19 +151,17 @@ body {
         background-color: #ffffff;
     }
 
-    .instagram-wrapper {
-        width: 90%;
+    .tela-instagreen {
+        width: 80%;
+        justify-content: center;
     }
 
-    .instagram-phone {
+    .insta-phone {
         display: none;
     }
 
-    .instagram-continue {
-        width: 100%;
+    .insta-continue {
+        width: 80%;
     }
     
-    .group {
-        border: 1px solid transparent;
-    }
 }

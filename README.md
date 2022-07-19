@@ -1,10 +1,14 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Projeto de Reconstrução de Página do Instagram
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Repositório referente ao desafio de projeto da DIO  de reconstruir a página de login do Instagram.
 
-### Os requisitos são:
+Desta forma, com base no fork da referência disponibilizada, adaptei a página para uma imaginária rede social de compartilhamento de boas práticas sustentáveis em prol da conscientização e divulgação de como as pequenas ações de cada um pode transformar num futuro melhor. 
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+E assim nasceu a ideia do Instagreen, no qual cada detalhei criado ou adaptado na página foi elaborado com base nos conhecimentos adquiridos até o momento.
 
-## 🚀 Let's code! 🚀
+![Por um mundo melhor](/imagens/mundo-sustentavel.gif)
+*Esta imagem pode conter direitos autorais.*
+
+## Comece por você! :seedling:
+
+A junção de pequenas ações, vira uma grande colheita. E isto serve para tudo na vida! Acredite em você e seja exemplo do mundo que deseja.
